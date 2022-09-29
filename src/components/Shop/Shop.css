@@ -1,0 +1,18 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.logo img{
+    width: 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    color: #686de0;
+}
