@@ -2,6 +2,11 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+@media screen and (max-width:770px) {
+    .shop-container{
+        grid-template-columns: 2fr ;
+    }
+}
 
 .products-container {
     margin-top: 50px;
@@ -9,6 +14,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
+}
+@media screen and (max-width:570px){
+    .products-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width:770px){
+    .products-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 .logo img{
     width: 80px;
@@ -24,8 +39,7 @@
     background-color:lightblue;
     padding-left: 10px;
     padding-right: 10px;
-    position: sticky;
-    top: 0;
+    
 }
 .cart-container h1 {
     margin-bottom:0 ;

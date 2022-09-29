@@ -23,7 +23,7 @@ const Shop = () => {
                 <img src={logo} alt=''></img>
                 <h2>Neuro Exercise</h2>
             </div>
-            <h3>Select Today's Exercise:{products.length}</h3>
+            <h3>Select Today's Exercise</h3>
             <div className="products-container">
                 {
                     products.map(product => <Product 
