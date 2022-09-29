@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
 @media screen and (max-width:770px) {
     .shop-container{
         grid-template-columns: 2fr ;
@@ -19,6 +20,7 @@
     .products-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    
 }
 @media screen and (max-width:770px){
     .products-container{
@@ -67,4 +69,5 @@
     color: white;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }

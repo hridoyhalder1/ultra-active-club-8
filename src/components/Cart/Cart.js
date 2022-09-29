@@ -1,6 +1,11 @@
 import React from 'react';
 import './Cart.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+const notify = () =>{
+    toast("first notification");
+}
 const Cart = (props) => {
     const {cart} = props;
     // console.log(cart);
@@ -32,10 +37,10 @@ const Cart = (props) => {
                     <h3>Break time:</h3>
                     <input type="text" name="" id="" placeholder='Break time 15 seconds' />
                 </div>
-                <button className='activity-btn'>
+                <button onClick={notify} className='activity-btn'>
                     <p>Activity Completed</p>
                 </button>
-
+                <ToastContainer />
                
             </div>
         </div>
