@@ -5,7 +5,7 @@
         "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 35,
         "name": "Dumble",
-        "time": "30s"
+        "time": 35
     },
     {
         "id": "63353ea4b05dacca6de54d3c",
@@ -13,7 +13,7 @@
         "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 30,
         "name": "Dumble",
-        "time": "30s"
+        "time": 30
         
     },
     {
@@ -22,7 +22,7 @@
         "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 26,
         "name": "Dumble",
-        "time": "30s"
+        "time": 30
     },
     {
         "id": "63353ea4b0d6c4cc955c0e65",
@@ -30,7 +30,7 @@
         "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 20,
         "name": "Dumble",
-        "time": "30s"
+        "time": 30
     },
     {
         "id": "63353ea419bee96fb159d75d",
@@ -38,7 +38,7 @@
         "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 37,
         "name": "Dumble",
-        "time": "30s"
+        "time": 30
     },
     {
         "id": "63353ea444fb34d0d3c69304",
@@ -46,7 +46,7 @@
         "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 21,
         "name": "Dumble",
-        "time": "30s"
+        "time": 30
     },
     {
         "id": "63353ea4204137cc0a61bd55",
@@ -54,6 +54,6 @@
         "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 29,
         "name": "Dumble",
-        "time": "30s"
+        "time": 30
     }
 ]

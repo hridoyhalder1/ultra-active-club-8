@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../Images/logo.png';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css';
 
@@ -12,7 +13,7 @@ const Shop = () => {
         .then(data => setProducts(data))
     },[])
     const handleAddToClick = (product) =>{
-        console.log(product);
+        // console.log(product);
         const newCart = [...cart, product];
         setCart(newCart);
     }
@@ -33,38 +34,18 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h1>Hriday Haldar</h1>
-                <small>Dhaka, Bangladesh</small>
-                <div className='detail-info'>
-                    <h3>75kg Weight</h3>
-                    <h3>6.5 Height</h3>
-                    <h3>25 year</h3>
-                </div>
-                <h2>Add a Break</h2>
-                <div className='break'>
-                    <h5>10s</h5>
-                    <h5>20s</h5>
-                    <h5>30s</h5>
-                    <h5>40s</h5>
-                </div>
-                <h2>Exercise Details</h2>
-                <div className='exercise-detail'>
-                    <input type="text" name="" id="" placeholder='Exercise time 200 seconds' />
-                    <h3>Break time:</h3>
-                    <input type="text" name="" id="" placeholder='Break time 15 seconds' />
-                </div>
-                <button className='activity-btn'>
-                    <p>Activity Completed</p>
-                </button>
-
-               
+                <Cart cart={cart}></Cart>
             </div>
             <div className='shop-blog' >
                 <h1>How does react work?</h1>
                 <p>ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
                 <h1>what are the difference between props and state?</h1>
                 <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components. The this. setState property is used to update the state values in the component.</p>
-                <h1></h1>
+                <h1>what is the use of 'useEffect' without data load?</h1>
+                <p>1. You must have a thorough understanding of when components (re-)render because effects run after every render cycle.
+                2. Effects are always executed after render, but you have options to opt out from this behavior.
+                3. To opt out or skip effects, you have to understand basic JavaScript concepts about values. An effect is only rerun if at least one of the values specified as part of the effect’s dependencies has changed since the last render cycle.
+                4. You should ensure that components are not re-rendered unnecessarily. This constitutes another strategy to skip unnecessary reruns of effects.</p>
             </div>
         </div>
         

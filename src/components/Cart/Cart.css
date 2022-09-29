@@ -1,0 +1,56 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.logo img{
+    width: 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    color: #686de0;
+}
+.cart-container {
+    background-color:lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: sticky;
+    top: 0;
+}
+.cart-container h1 {
+    margin-bottom:0 ;
+}
+.detail-info {
+    display: flex;
+    justify-content: space-around;
+}
+.break {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightyellow;
+    margin-right: 10px;
+    border-radius: 10px;   
+}
+.exercise-detail input {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.activity-btn{
+    width: 100%;
+    background-color: #686de0;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
