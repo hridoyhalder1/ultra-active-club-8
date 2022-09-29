@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const notify = () =>{
-    toast("first notification");
+    toast("first notification")
 }
 const Cart = (props) => {
     const {cart} = props;
