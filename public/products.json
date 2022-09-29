@@ -1,44 +1,59 @@
 [
     {
-        "_id": "63353ea42f324fd75fcc35f7",
+        "id": "63353ea42f324fd75fcc35f7",
         "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
+        "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 35,
-        "name": "Barbra Hodge"
+        "name": "Dumble",
+        "time": "30s"
     },
     {
-        "_id": "63353ea4b05dacca6de54d3c",
-        "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
+        "id": "63353ea4b05dacca6de54d3c",
+        "picture": "https://cdn.lifehack.org/wp-content/uploads/2018/03/workout-routines-for-men-1024x768.jpeg",
+        "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 30,
-        "name": "Lancaster Lindsay"
+        "name": "Dumble",
+        "time": "30s"
+        
     },
     {
-        "_id": "63353ea47d2bdeaaa9923657",
-        "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
+        "id": "63353ea47d2bdeaaa9923657",
+        "picture": "https://cdn.muscleandstrength.com/sites/default/files/styles/400x250/public/taxonomy/image/workouts/workoutsformen.jpg?itok=jALf6fyP",
+        "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 26,
-        "name": "Leanna Clayton"
+        "name": "Dumble",
+        "time": "30s"
     },
     {
-        "_id": "63353ea4b0d6c4cc955c0e65",
-        "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
+        "id": "63353ea4b0d6c4cc955c0e65",
+        "picture": "https://media.istockphoto.com/photos/be-as-strong-as-you-were-born-to-be-picture-id1279902517?k=20&m=1279902517&s=612x612&w=0&h=RlVc-49u3noWYHy0XE4IHvRuKD3_kfelklxIGrYz9bI=",
+        "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 20,
-        "name": "Miriam Gardner"
+        "name": "Dumble",
+        "time": "30s"
     },
     {
-        "_id": "63353ea419bee96fb159d75d",
-        "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
+        "id": "63353ea419bee96fb159d75d",
+        "picture": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/01/best-gyms-in-singapore-Andrea-Piacquadio-via-Pexels-900x643.jpg",
+        "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 37,
-        "name": "Adele Ray"
+        "name": "Dumble",
+        "time": "30s"
     },
     {
-        "_id": "63353ea444fb34d0d3c69304",
-        "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
+        "id": "63353ea444fb34d0d3c69304",
+        "picture": "https://www.muscleandfitness.com/wp-content/uploads/2018/01/Lean-Muscular-Man-Doing-Bicep-Curls.jpg?quality=86&strip=all",
+        "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
         "age": 21,
-        "name": "Savannah Webster"
+        "name": "Dumble",
+        "time": "30s"
     },
     {
-        "_id": "63353ea4204137cc0a61bd55",
-        "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?quality=70&strip=all",
-        "age": 21,
-        "name": "Simone Griffin"
+        "id": "63353ea4204137cc0a61bd55",
+        "picture": "https://media.istockphoto.com/photos/hardcore-body-building-workout-picture-id615284982?k=20&m=615284982&s=612x612&w=0&h=HrWN188TTqpD6DuVgdh1piSWYaH9Bue-b5hn2wA9gvk=",
+        "blog":"Somatic movement is awareness or presence during movement, and being connected in your body,” explains Rachelle Tsachor.",
+        "age": 29,
+        "name": "Dumble",
+        "time": "30s"
     }
 ]

@@ -5,6 +5,9 @@
 .products-container {
     margin-top: 50px;
     margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
 }
 .logo img{
     width: 80px;
