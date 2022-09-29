@@ -19,3 +19,35 @@
 .logo h2{
     color: #686de0;
 }
+.cart-container {
+    background-color:lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cart-container h1 {
+    margin-bottom:0 ;
+}
+.detail-info {
+    display: flex;
+    justify-content: space-around;
+}
+.break {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightyellow;
+    margin-right: 10px;
+    border-radius: 10px;   
+}
+.exercise-detail input {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.activity-btn{
+    width: 100%;
+    background-color: #686de0;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
